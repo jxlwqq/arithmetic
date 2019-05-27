@@ -1,0 +1,34 @@
+{
+  "name": "jxlwqq/arithmetic",
+  "description": "arithmetic package",
+  "type": "library",
+  "authors": [
+    {
+      "name": "jxlwqq",
+      "email": "jxlwqq@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.6"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.laravel-china.org"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Jxlwqq\\Arithmetic\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Jxlwqq\\Arithmetic\\Test\\": "test"
+    }
+  }
+}
