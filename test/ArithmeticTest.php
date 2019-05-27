@@ -8,11 +8,11 @@ use PHPUnit\Framework\TestCase;
 class ArithmeticTest extends TestCase
 {
     public $arithmetic;
+
     public function setUp()
     {
         parent::setUp();
         $this->arithmetic = new Arithmetic();
-
     }
 
     public function testSum()
