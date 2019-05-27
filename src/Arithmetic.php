@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Jxlwqq\Arithmetic;
-
 
 class Arithmetic
 {
